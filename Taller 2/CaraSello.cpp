@@ -12,7 +12,7 @@ int main()
     uniform_int_distribution<int>moneda(1,2); // << Aqui >> 1 = Cara y 2 = Sello
     
     int eleccion, resultado;
-    char jugardeNuevo;
+    string jugardeNuevo;
     
     do {
         do{
@@ -39,7 +39,7 @@ int main()
         cout<< " Quieres seguir jugando? "<<endl;
         cin>> jugardeNuevo;
         
-   }while (jugardeNuevo == 's'|| jugardeNuevo == 'S');
+   }while (jugardeNuevo == "si"|| jugardeNuevo == "SI" || jugardeNuevo == "Si");
    
    cout<< "Gracias por Jugar!"<<endl;
 
