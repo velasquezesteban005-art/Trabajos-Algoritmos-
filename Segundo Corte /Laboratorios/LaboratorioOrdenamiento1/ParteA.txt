@@ -1,0 +1,22 @@
+Parte A Responda y justifique:
+
+1. Tengo mil datos ya ordenados y quiero ordenarlos otra vez. ¿Cuál de los tres básicos hace menos trabajo y por qué?
+2. Mi Quicksort escoge el primer elemento como pivote. Denme un conjunto de datos que lo haga comportarse pésimo.
+3. Quiero buscar cien veces sobre una colección de diez mil elementos desordenados. ¿Ordeno primero y uso binaria, o busco secuencial cien veces? Justifiquen.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+SOLIUCION
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+1. Insertion Sort  es la mejor opcion ya que como los datos ya estan ordenados, pues esta realiza las comparaciones de forma lineal O(n)
+ya que cada elemento se compara una sola vez que es con su predecesor y se confirna que esta en su posicion correcta. de esta manera
+hace unicamente 999 operaciones, a diferencia con las otras dos que sin importar trabajan en un nivel de complejidad O(n^2).
+
+2. El peor caso de Quicksort es elegir como pivote el primer elemento de una lista ordenada como:
+    [1,2,3,4,5,6,7,8,9,10]
+Por que este es el peor caso, por que Quicksort trabaja de la forma de divide y venceras, esto lo hace para comparar y ordenar elmentos de
+una lista partiendola por la mitad y dejando a la izquierda los numeros menores y a la derecha los mayores, como el pivote es el primer
+elemento pues el algoritmo al hacer la comparacion va a poder separar de la lista solo ese primer elemento y tendra que repetir ese proceso
+la cantidad de elementos que tenga la lista pasando asi de un nivel de complejidad O(n log n) a O(n^2).
+
+3. Conviene ordenar primero y luego usar búsqueda binaria que es la estrategia B. Mientras que hacer 100 búsquedas secuenciales en una lista desordenada
+requiere recorrer todos los elementos una y otra vez acumulando un millón de operaciones, ordenar la lista una sola vez y aplicar búsqueda binaria
+reduce drásticamente el esfuerzo a unas 134,000 operaciones en total.
