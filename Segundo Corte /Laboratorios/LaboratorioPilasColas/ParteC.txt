@@ -1,0 +1,20 @@
+Preguntas
+
+1.En una cola sobre lista enlazada, saco el último elemento. ¿Qué dos referencias tengo que actualizar y por qué?
+    Respuesta: Se debe actualizar las referecnias frente y final a None. En el caso de frente, al extraer el único 
+    nodo restante, la cola queda completamente vacía, por lo que deja de existir un primer elemento al cual apuntar.
+
+    Y en el caso de final, Para que no se quede apuntando al nodo que acabamos de borrar (lo que se conoce como puntero colgado).
+    Si no lo limpiamos, la próxima vez que queramos encolar algo, el programa intentará usar esa dirección de memoria vieja que ya no existe y se va a romper.
+
+2.En una cola circular de capacidad cinco, el frente está en tres y hay cuatro elementos. ¿En qué posición se guarda el siguiente que encole?
+    Respuesta: Se guarda em la posición 2
+
+3.Quiero deshacer las últimas tres operaciones. ¿Pila o cola? ¿Por qué?
+    Respuesta: Pila, pues esta a diferencia de la Cola, sigue el principio LIFO(Last In, First Out), esto hace que siempre el ultimo elemento
+    en ingresar sea el primero en salir, para entenderlo un poco mejor es como una pila de platos sucios, para que la pila no se caiga o no se dañe
+    cuando los vayamos a lavar, debemo quitar siempre el ultimo plato de la pila.
+    
+4.Quiero atender por orden de llegada. ¿Pila o cola?
+    Respuesta: Cola, pues esta sigue el principio FIFO(First In, First Out), esto garantiza que siempre el primer elmento en ingresar sea
+    el primero en ser resuelto 
