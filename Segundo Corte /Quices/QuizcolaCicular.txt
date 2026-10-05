@@ -1,0 +1,23 @@
+Como se el casillero de los demas?
+
+
+Hay 12 casilleros y 12 personas
+
+1. Julian = 10 + 21 + 12 + 9 + 1 + 14 = 7
+2. Santiago = 19 + 1 +14 + 20 + 9 + 1 + 7 + 15 = 2
+3. Daniel = 4 + 1 + 14 + 9 + 5 + 12 = 9
+4. Maria = 13 + 1 + 18 + 9 + 1 = 6
+5. Nicolas = 14 + 9 + 3 + 15 + 12 + 1 + 19 = 1 
+6. Oscar = 15 + 19 + 3 + 1 + 18 = 8
+7. Juan = 10 + 21 + 1 + 14 = 10
+8. Sergio = 19 + 5 + 18 + 7 + 9 + 15 = 1
+9. Eduard = 5 + 4 + 23 + 1 + 18 + 4 = 7
+10. Tatiana = 20 + 1 + 20 + 9 + 1 + 14 + 1 = 6
+11. Asier = 1 + 19 + 9 + 5 + 18 = 4
+12. Andres = 1 + 14 + 4 + 18 + 5 + 19 = 1 
+
+
+Puedo encontrar a Edward en el casillero 0? 
+    Respuesta : SI
+Seria dificil encontrarlo? 
+    Respuesta: No, 
